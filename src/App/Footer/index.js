@@ -11,8 +11,7 @@ const Footer = () => (
         <span className="Footer-text">Built by</span>{' '}
         <Link
           className="Footer-link"
-          href="https://www.robinwieruch.de"
-        >
+          href="https://www.robinwieruch.de">
           Robin Wieruch
         </Link>{' '}
         <span className="Footer-text">with &hearts;</span>

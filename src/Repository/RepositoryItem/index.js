@@ -17,10 +17,8 @@ const VIEWER_SUBSCRIPTIONS = {
   SUBSCRIBED: 'SUBSCRIBED',
   UNSUBSCRIBED: 'UNSUBSCRIBED',
 };
-
 const isWatch = viewerSubscription =>
   viewerSubscription === VIEWER_SUBSCRIPTIONS.SUBSCRIBED;
-
 const updateWatch = (
   client,
   {

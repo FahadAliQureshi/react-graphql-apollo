@@ -8,9 +8,7 @@ export const STAR_REPOSITORY = gql`
         viewerHasStarred
       }
     }
-  }
-`;
-
+  }`;
 export const UNSTAR_REPOSITORY = gql`
   mutation($id: ID!) {
     removeStar(input: { starrableId: $id }) {

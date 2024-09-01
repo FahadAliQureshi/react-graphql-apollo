@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './style.css';
 
 const Comment = ({ comment }) => (
@@ -9,5 +8,4 @@ const Comment = ({ comment }) => (
     <div dangerouslySetInnerHTML={{ __html: comment.bodyHTML }} />
   </div>
 );
-
 export default Comment;

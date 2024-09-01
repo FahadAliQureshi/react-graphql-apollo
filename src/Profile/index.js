@@ -26,7 +26,6 @@ const GET_REPOSITORIES_OF_CURRENT_USER = gql`
       }
     }
   }
-
   ${REPOSITORY_FRAGMENT}
 `;
 
